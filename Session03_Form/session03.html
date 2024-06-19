@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Register Form</h1>
+
+    <form action="https://www.google.com/" method="POST">
+      <div>
+        <label for="fullname">Full Name:</label> <br />
+        <input
+          type="text"
+          placeholder="Enter full name"
+          id="fullname"
+          name="fullname"
+        />
+      </div>
+      <div>
+        <label for="age">Age:</label> <br />
+        <input
+          type="number"
+          placeholder="Please input age"
+          id="age"
+          name="age"
+        />
+      </div>
+      <div>
+        <label for="email">Email:</label> <br />
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="password">Password:</label> <br />
+        <input type="password" id="password" name="password" />
+      </div>
+      <div>
+        <label for="skin">Skin:</label> <br />
+        <input type="color" id="color" name="color" />
+      </div>
+      <div>
+        <label for="dob">Birthday</label> <br />
+        <input type="datetime-local" id="dob" name="dob" />
+      </div>
+      <div>
+        <label for="dz">Đánh giá mức độ đz:</label> <br />
+        <input type="range" id="dz" name="dz" min="1" max="10" />
+      </div>
+      <div>
+        <label for="phone">Số điện thoại:</label> <br />
+        <input type="tel" id="phone" name="phone" />
+      </div>
+      <div>
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+      </div>
+      <div>
+        <p>Hobbies:</p>
+        <input
+          type="checkbox"
+          id="hobby1"
+          name="hobby1"
+          value="reading books"
+        />
+        <label for="hobby1">Reading Books</label>
+
+        <input
+          type="checkbox"
+          id="hobby2"
+          name="hobby2"
+          value="playing video games"
+        />
+        <label for="hobby2">Playing video games</label>
+      </div>
+
+      <!-- <div>
+        <label for="url">Social Media:</label> <br />
+        <input type="url" id="url" name="url" />
+      </div> -->
+      <!-- <div>
+        <label for="search">Đánh giá mức độ đz</label> <br />
+        <input type="search" id="search" name="search" />
+      </div> -->
+      <div>
+        <label for="city">Tỉnh/Thành Phố:</label> <br />
+        <select name="city" id="city">
+          <option value="Hà Nội">Hà Nội</option>
+          <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+          <option value="Đà Nẵng">Đà Nẵng</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="feedback">Gửi cho chúng tôi feedback của bạn:</label>
+        <br />
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+      </div>
+
+      <br />
+      <button>Register</button>
+      <!-- <input type="button" value="Cancel" /> -->
+      <!-- <input type="submit" value="Register" /> -->
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
