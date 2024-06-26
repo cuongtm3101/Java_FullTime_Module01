@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(39, 39, 39);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+div {
+  color: aquamarine;
+  background-color: red;
+}
+
+div {
+  color: purple;
+  background-color: azure;
+}
+
+section {
+  color: darkorange;
+  background-color: blueviolet;
+}
+
+#last-section {
+  color: brown;
+  background-color: pink;
+}
+
+.demo-class {
+  color: dimgray;
+  background-color: firebrick;
+}
+
+.section-style {
+  color: cornflowerblue;
+  background-color: coral;
+}
+
+section .b-style {
+  color: deeppink;
+  background-color: black;
+}
+
+.demo-color {
+  background-color: rgb(255, 255, 0);
+  color: #b92b27;
+}
+
+.demo-text-css {
+  text-align: right;
+  text-transform: lowercase;
+  /* text-decoration: wavy underline red; */
+  letter-spacing: 10px;
+  line-height: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: wavy underline rgb(34, 127, 214) 5px;
+  letter-spacing: 5px;
+  font-family: "Arial";
+  font-size: 40px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.box-model {
+  background-color: #b92b27;
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  height: 300px;
+  margin: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  /* padding: 100px; */
+  /* padding: 50px 100px; */
+  /* padding: 20px 30px 40px 50px; */
+  padding: 20px 30px 40px;
+  border: 10px solid black;
+}

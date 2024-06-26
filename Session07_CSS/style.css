@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .post-container {
+  width: 450px;
+}
+
+.post-container img {
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+.post-container h2 {
+  margin-bottom: 10px;
+}
+
+.text-align-section {
+  font-size: 18px;
+  width: 900px;
+}
+
+.text-align-section .theory-wrapper {
+  padding: 10px;
+}
+
+.text-align-section h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.text-align-section p {
+  margin-bottom: 10px;
+}
+
+.text-align-section p span {
+  color: #bd1947;
+  background-color: #f2f6f2;
+}
+
+.text-align-section .demo {
+  border: 3px solid #0c7b0e;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.text-align-section .example-wrapper {
+  background-color: #e4e8ec;
+  padding: 10px;
+}
+
+.text-align-section .example-wrapper h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.text-align-section .example-wrapper .code-demo {
+  background-color: #fff;
+  border-left: 3px solid #05ac6e;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.text-align-section .example-wrapper button {
+  background-color: #05ac6e;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+} */
+
+/* .modal-container {
+  width: 800px;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+}
+
+.modal-container div {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.modal-container div:first-child {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.modal-container div:last-child {
+  background-color: #f7f7f7;
+  border-top: 1px solid #e3e3e3;
+}
+
+.modal-container div h3,
+p {
+  margin-bottom: 10px;
+}
+
+.modal-container div button {
+  background-color: #0b6ffd;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+} */
+
+/* .accordion-container {
+  border: 1px solid #dee4ed;
+  border-radius: 4px;
+  width: 700px;
+}
+
+.accordion-container .accordion-item .title,
+.accordion-container .accordion-item .content {
+  padding: 10px;
+  border-bottom: 1px solid #dee4ed;
+  position: relative;
+}
+
+.accordion-container .accordion-item:last-child .title {
+  border: none;
+}
+
+.accordion-container .accordion-item:first-child .title {
+  background-color: #e8f2ff;
+  color: #1f6ae8;
+}
+
+.accordion-container .accordion-item .title .expand-button {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+} */
+
+.post-container {
+  width: 500px;
+  position: relative;
+}
+
+.post-container img {
+  width: 100%;
+}
+
+.post-container .title-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background-color: #00000063;
+  width: 100%;
+  padding: 30px;
+}
+
+.post-container .title-container h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.post-container button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
