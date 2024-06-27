@@ -1,0 +1,124 @@
+/* GLOBAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+  color: #231651;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-style {
+  padding: 10px 150px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-style {
+    padding: 10px 10px;
+  }
+}
+
+/* NAVBAR CSS */
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 5px 0px rgba(230, 230, 230, 0.75);
+}
+
+.main-nav .logo img {
+  width: 145px;
+}
+
+.main-nav .logo img {
+  width: 145px;
+}
+
+.main-nav .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.main-nav .language {
+  background-color: #f8f7fa;
+  padding: 7px 14px;
+  border-radius: 4px;
+}
+
+.responsive-navbar {
+  display: none;
+}
+
+@media only screen and (max-width: 960px) {
+  .main-nav {
+    display: none;
+  }
+
+  .responsive-navbar {
+    display: flex;
+  }
+}
+
+/* HEADER CSS */
+
+header {
+  display: flex;
+  background-image: url(https://rikkei.edu.vn/wp-content/uploads/2024/01/bg-home1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+header .hero-image {
+  width: 600px;
+}
+
+header .hero-section {
+  position: absolute;
+}
+
+@media only screen and (max-width: 960px) {
+  header {
+    flex-direction: column;
+  }
+  header .layout-section {
+    height: 400px;
+  }
+  header .hero-image {
+    width: 100%;
+  }
+  header .hero-section {
+    top: 100px;
+    left: 10px;
+  }
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.child {
+  height: 200px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 960px) {
+  .demo-grid {
+    grid-template-columns: auto auto;
+  }
+}
