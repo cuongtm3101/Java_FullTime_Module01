@@ -62,87 +62,115 @@
 // ĐÂY LÀ NHÀ HÀNG - Quán bia CỦA YẾN
 //
 
-let mon1 = "Tiết canh dê";
-let mon2 = "Lòng xách dê xào";
-let mon3 = "Canh đắng";
-let mon4 = "Dê xào lăn";
-let mon5 = "Dê xào xả ớt";
+// let mon1 = "Tiết canh dê";
+// let mon2 = "Lòng xách dê xào";
+// let mon3 = "Canh đắng";
+// let mon4 = "Dê xào lăn";
+// let mon5 = "Dê xào xả ớt";
 
-// ... Nồi hấp bị hỏng
-let mon80 = "Dê chao dầu";
+// // ... Nồi hấp bị hỏng
+// let mon80 = "Dê chao dầu";
 
-// ...
-let mon999 = "Nầm dê nướng";
+// // ...
+// let mon999 = "Nầm dê nướng";
 
-let menu = [
-  "Tiết canh dê",
-  "Lòng xách dê xào",
-  "Canh đắng",
-  "Dê xào lăn",
-  "Dê xào xả ớt",
-  "Dê chao dầu",
-  "Nầm dê nướng",
-];
+// let menu = [
+//   "Tiết canh dê",
+//   "Lòng xách dê xào",
+//   "Canh đắng",
+//   "Dê xào lăn",
+//   "Dê xào xả ớt",
+//   "Dê chao dầu",
+//   "Nầm dê nướng",
+// ];
 
-console.log(menu);
+// console.log(menu);
 
-// Create - Thêm mới 1 phần tử
+// // Create - Thêm mới 1 phần tử
 
-// Thêm đầu
-menu.unshift("Nầm dê xào khế");
+// // Thêm đầu
+// menu.unshift("Nầm dê xào khế");
 
-console.log(menu);
+// console.log(menu);
 
-// Thêm cuối
-menu.push("Thịt chó");
+// // Thêm cuối
+// menu.push("Thịt chó");
 
-console.log(menu);
+// console.log(menu);
 
-// Read - Lấy ra
-// Read one - Lấy ra 1 phần tử
+// // Read - Lấy ra
+// // Read one - Lấy ra 1 phần tử
 
-console.log(`Mời Dương xơi ${menu[5]}`); // Dê xào xả ớt
+// console.log(`Mời Dương xơi ${menu[5]}`); // Dê xào xả ớt
 
-// Read all - Lấy ra toàn bộ phần tử
+// // Read all - Lấy ra toàn bộ phần tử
 
-for (let i = 0; i <= menu.length - 1; i = i + 1) {
-  console.log(`Tôi, HẢI YẾN, thông báo đồng loạt tăng giá ${menu[i]} lên 10k`); //
-  // menu[0] -> Nầm dê xào khế
-  // menu[1] -> Tiết canh dê
-  // ...
-  // menu[8] -> Thịt chó
-}
+// for (let i = 0; i <= menu.length - 1; i = i + 1) {
+//   console.log(`Tôi, HẢI YẾN, thông báo đồng loạt tăng giá ${menu[i]} lên 10k`); //
+//   // menu[0] -> Nầm dê xào khế
+//   // menu[1] -> Tiết canh dê
+//   // ...
+//   // menu[8] -> Thịt chó
+// }
 
-// U - Update - Cập nhật
-menu[7] = "Nầm dê hấp";
+// // U - Update - Cập nhật
+// menu[7] = "Nầm dê hấp";
 
-console.log(menu);
+// console.log(menu);
 
-// D - Delete - Xoá
-// Xoá đầu
-menu.shift();
+// // D - Delete - Xoá
+// // Xoá đầu
+// menu.shift();
 
-console.log(menu);
+// console.log(menu);
 
-// Xoá cuối
-menu.pop();
+// // Xoá cuối
+// menu.pop();
 
-console.log(menu);
+// console.log(menu);
 
-// Xoá phần tử tại vị trí bất kỳ
-menu.splice(4, 3);
+// // Xoá phần tử tại vị trí bất kỳ
+// menu.splice(4, 3);
 
-console.log(menu);
+// console.log(menu);
 
-// Thêm mới tại vị trí bất kỳ
+// // Thêm mới tại vị trí bất kỳ
 
-menu.splice(
-  1,
-  0,
-  "Đậu lướt ván",
-  "Đậu rán giòn",
-  "Đậu tẩm hành",
-  "Đậu nhồi thịt"
-);
+// menu.splice(
+//   1,
+//   0,
+//   "Đậu lướt ván",
+//   "Đậu rán giòn",
+//   "Đậu tẩm hành",
+//   "Đậu nhồi thịt"
+// );
 
-console.log(menu);
+// console.log(menu);
+
+// let arr = [];
+
+// for (let i = 1; i <= 10; i = i + 1) {
+//   let loop = true;
+//   while (loop) {
+//     let item = +prompt(`Mời bạn nhập phần tử thứ ${i} vào mảng`);
+//     if (Number.isInteger(item)) {
+//       arr.push(item);
+//       loop = false;
+//     } else {
+//       alert("Phần tử nhập vào không hợp lệ");
+//     }
+//   }
+// }
+// console.log(arr);
+
+// spread operator
+
+// a []
+// b []
+
+// c [...a, ...b]
+
+let arr = [1, 2, 3, 4];
+
+let str = arr.join("");
+console.log(`'${str}'`);
