@@ -207,78 +207,78 @@
 // {id, title, description, image, content}
 // ]
 
-const blogData = [
-  {
-    id: 1,
-    title: "Tôi buồn",
-    description: "Tôi rất buồn 2024",
-    image: "Hình ảnh 1",
-    content: "Tôi buồn không hiểu vì sao tôi buồn",
-  },
-  {
-    id: 2,
-    title: "Tôi vui",
-    description: "Tôi rất vui 2024",
-    image: "Hình ảnh 2",
-    content: "Tôi vui không hiểu vì sao tôi vui",
-  },
-  {
-    id: 3,
-    title: "Tôi bình thường",
-    description: "Tôi rất bình thường 2024",
-    image: "Hình ảnh 3",
-    content: "Tôi bình thường không hiểu vì sao tôi bình thường",
-  },
-  {
-    id: 4,
-    title: "Tôi đau bụng",
-    description: "Tôi rất đau bụng 2024",
-    image: "Hình ảnh 1",
-    content: "Tôi đau bụng không hiểu vì sao tôi đau bụng",
-  },
-  {
-    id: 5,
-    title: "Tôi tiêu chảy",
-    description: "Tôi rất tiêu chảy 2024",
-    image: "Hình ảnh 1",
-    content: "Tôi tiêu chảy không hiểu vì sao tôi tiêu chảy",
-  },
-]; // fake lấy về từ Database (Cơ sở dữ liệu)
+// const blogData = [
+//   {
+//     id: 1,
+//     title: "Tôi buồn",
+//     description: "Tôi rất buồn 2024",
+//     image: "Hình ảnh 1",
+//     content: "Tôi buồn không hiểu vì sao tôi buồn",
+//   },
+//   {
+//     id: 2,
+//     title: "Tôi vui",
+//     description: "Tôi rất vui 2024",
+//     image: "Hình ảnh 2",
+//     content: "Tôi vui không hiểu vì sao tôi vui",
+//   },
+//   {
+//     id: 3,
+//     title: "Tôi bình thường",
+//     description: "Tôi rất bình thường 2024",
+//     image: "Hình ảnh 3",
+//     content: "Tôi bình thường không hiểu vì sao tôi bình thường",
+//   },
+//   {
+//     id: 4,
+//     title: "Tôi đau bụng",
+//     description: "Tôi rất đau bụng 2024",
+//     image: "Hình ảnh 1",
+//     content: "Tôi đau bụng không hiểu vì sao tôi đau bụng",
+//   },
+//   {
+//     id: 5,
+//     title: "Tôi tiêu chảy",
+//     description: "Tôi rất tiêu chảy 2024",
+//     image: "Hình ảnh 1",
+//     content: "Tôi tiêu chảy không hiểu vì sao tôi tiêu chảy",
+//   },
+// ]; // fake lấy về từ Database (Cơ sở dữ liệu)
 
-const cardContainer = document.getElementById("card-container");
-console.log(cardContainer);
+// const cardContainer = document.getElementById("card-container");
+// console.log(cardContainer);
 
-for (let blog of blogData) {
-  cardContainer.innerHTML =
-    cardContainer.innerHTML +
-    `
-    <div class="card">
-        <h2>${blog.title}</h2>
-        <h5>${blog.description}</h5>
-        <div class="fakeimg" style="height: 200px">${blog.image}</div>
-        <p>${blog.content}</p>
-    </div>`;
-}
+// for (let blog of blogData) {
+//   cardContainer.innerHTML =
+//     cardContainer.innerHTML +
+//     `
+//     <div class="card">
+//         <h2>${blog.title}</h2>
+//         <h5>${blog.description}</h5>
+//         <div class="fakeimg" style="height: 200px">${blog.image}</div>
+//         <p>${blog.content}</p>
+//     </div>`;
+// }
 
-let a = document.getElementById("a");
-console.log(a.href);
+// let a = document.getElementById("a");
+// console.log(a.href);
 
-let input = document.getElementById("input");
-console.log(input.placeholder);
-console.log(input.type);
+// let input = document.getElementById("input");
+// console.log(input.placeholder);
+// console.log(input.type);
 
-let img = document.getElementById("img");
-img.src =
-  "https://dogtime.com/wp-content/uploads/sites/12/2011/01/GettyImages-168620477-e1691273341205.jpg";
+// let img = document.getElementById("img");
+// img.src =
+//   "https://dogtime.com/wp-content/uploads/sites/12/2011/01/GettyImages-168620477-e1691273341205.jpg";
 
-img.setAttribute(
-  "src",
-  "https://kenh14cdn.com/thumb_w/660/2018/10/30/4513531921540335312873918724001012597129216o-15408670807531769807947.jpg"
-);
+// img.setAttribute(
+//   "src",
+//   "https://kenh14cdn.com/thumb_w/660/2018/10/30/4513531921540335312873918724001012597129216o-15408670807531769807947.jpg"
+// );
 
-img.style.borderRadius = "50%";
+// img.style.borderRadius = "50%";
 
-let div = document.getElementById("demo-style");
+// let div = document.getElementById("demo-style");
 // Bộ style dùng để biến đổi
 // một phần tử HTML thành hình tròn
 // div.style.backgroundColor = "pink";
@@ -289,10 +289,10 @@ let div = document.getElementById("demo-style");
 // div.style.lineHeight = "300px";
 // div.style.borderRadius = "50%";
 // div.style.fontSize = "40px";
-div.classList.add("pink-circle"); // danh sách class của một phần tử HTML
+// div.classList.add("pink-circle"); // danh sách class của một phần tử HTML
 
-let btn = document.getElementById("btn");
+// let btn = document.getElementById("btn");
 
-btn.onclick = function () {
-  alert("Hello world");
-};
+// btn.onclick = function () {
+//   alert("Hello world");
+// };
